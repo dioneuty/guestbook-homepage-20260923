@@ -53,7 +53,7 @@ lib/
 - **클라이언트 분리**: `client.ts`(Client Component), `server.ts`(Server Component/Route Handler)
 - **Realtime**: `INSERT` 이벤트 구독 후 로컬 state에 merge (중복 방지)
 - **RLS**: 익명 `anon` 역할 — SELECT/INSERT 허용, UPDATE/DELETE는 초기에 차단
-- **환경 변수**: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+- **환경 변수**: `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY`
 
 ## UI 패턴
 
