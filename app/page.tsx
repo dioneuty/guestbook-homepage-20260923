@@ -2,6 +2,8 @@ import { GuestbookApp } from "@/components/GuestbookApp";
 import { createClient } from "@/lib/supabase/server";
 import type { GuestbookEntry } from "@/lib/types";
 
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const supabase = await createClient();
 
