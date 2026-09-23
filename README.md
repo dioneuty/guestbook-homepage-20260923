@@ -55,4 +55,17 @@ npm run dev
 
 ## 배포
 
-Vercel 등에 배포할 때 동일한 환경 변수를 설정합니다.
+### Vercel (Production)
+
+- **URL**: https://guestbook-homepage-20260923.vercel.app
+- **GitHub**: https://github.com/dioneuty/guestbook-homepage-20260923
+- **Dashboard**: https://vercel.com/dioneutys-projects/guestbook-homepage-20260923
+
+환경 변수 (Vercel Project Settings):
+
+```env
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=
+```
+
+`main` 브랜치 push 시 GitHub 연동으로 자동 재배포됩니다.

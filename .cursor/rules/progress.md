@@ -25,7 +25,8 @@
 - [x] Supabase MCP로 `001_guestbook_entries.sql` 마이그레이션 적용 (test-guestbook)
 - [x] 테스트 데이터 3건 INSERT (MCP)
 - [ ] 로컬/프로덕션 end-to-end 테스트
-- [ ] (선택) Vercel 배포
+- [x] Vercel Production 배포 (https://guestbook-homepage-20260923.vercel.app)
+- [x] GitHub 저장소 연동 (dioneuty/guestbook-homepage-20260923)
 
 ## 알려진 이슈
 
